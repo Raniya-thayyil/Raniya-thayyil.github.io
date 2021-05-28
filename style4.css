@@ -1,0 +1,66 @@
+body,html{
+    height: 100%;
+    width: 100%;
+
+    background: url("https://images.pexels.com/photos/1420003/pexels-photo-1420003.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+}
+h1{
+    font-size: 3.5em;
+    color:honeydew;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Sigmar One', cursive;
+    font-family: 'Stint Ultra Condensed', cursive;
+
+    
+
+    
+}
+.btn{
+    font-size: 1em;
+    border-radius: 200px;
+    text-transform: uppercase;
+    text-shadow: teal;
+    color: black;
+    position: absolute;
+    top: 65%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+
+}
+.btn-primary:hover{
+    background-color:coral;
+}
+    
+
+
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+}
+      
+li {
+        display: inline;
+        float: inline-end;
+}
+.navbart{
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
