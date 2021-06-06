@@ -1,0 +1,88 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+   background: #1f2235;
+    font-family: "Baloo Tamma 2", cursive;
+    /* background-image: url("1.jpg") ; */
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  }
+  
+  /* Main Heading Font */
+  .m-heading {
+    font-family: "Roboto Slab", serif;
+    
+  
+  }
+  h2{
+    font-size: 2.5rem;
+  }
+  .navigation-link{
+    /* display: flex; */
+      /* text-decoration: none; */
+      border:2px solid  transparent;
+      /* border-bottom-width: 0; */
+      
+    
+  }
+
+  .navigation-link:hover{
+text-decoration: none;
+border-bottom: 2px solid yellow;
+transition: .5s;
+/* border-bottom-width:100%; */
+
+  }
+  .main-container{
+    min-height: 60vh;
+    padding-top: 14rem;
+    padding-right: 12rem;
+  }
+  
+  
+  .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  img{
+    height: 320px;
+    width: 320px;
+    border-radius: .5rem;
+    
+  }
+  video{
+    height: 320px;
+    width: 320px;
+    border-radius: .5rem;
+    
+  }
+
+  #About{
+    background:#313552;
+    border-radius: 0.5rem;
+  }
+  .card{
+    border-bottom: 2px solid yellow;
+  }
+  #Social-Media{
+    background-color: #313552;
+  }
+  
+  .media_link{
+    padding: 1rem;
+     max-width: 15rem; 
+    margin-left: 1rem;
+    border: 1px solid yellow;
+    border-radius: .5rem;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+  
+  
